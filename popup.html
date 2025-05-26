@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto-Skills Filler</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Upload Resume</h1>
+  <input type="file" id="resumeUpload" accept=".pdf,.doc,.docx" />
+  <p>Or paste skills directly:</p>
+  <textarea id="skillsInput" placeholder="e.g. JavaScript, Python, SQL"></textarea>
+  <button id="extractBtn">Extract & Fill</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Auto-Skills Filler",
+  "version": "0.1",
+  "description": "Extract skills from resume and auto-fill job application forms",
+  "permissions": ["scripting", "activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "popup.js"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "128": "icons/icon128.png"
+  }
+}
